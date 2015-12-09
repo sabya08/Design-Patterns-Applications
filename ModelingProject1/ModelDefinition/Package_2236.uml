@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="4b02434d-5489-46a4-b3e8-a33ef3a3ead4"
+  name="SSAProject_A20335721"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="77363164-5a76-4a36-99d1-256856e94d50"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSSAProject_A20335721"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="fc92c6de-a140-468a-b8f5-be113efd8d72">
+      <profileInstance
+        Id="2e57c436-c619-43e5-90d6-dcd7be9cf041"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a3a75b18-0e01-4a9f-8165-2a548c976e23"
+        name="MainGasPump"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="642a128d-2468-453a-b430-9dee4ce974e6"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721 Type%3DMainGasPump"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5b057b61-9445-48d1-95fb-dbbd5032bd23"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7d0dd431-5fbe-481d-ae40-f733765fd74a">
+                <propertyInstance
+                  Id="9614e472-7205-4714-8b35-dd63f993fc2b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d5972c2d-c06a-4b6b-ae85-b248659d57d9">
+                <propertyInstance
+                  Id="7de48182-8475-457b-bfbd-fd0e11fa813e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="dd525d9e-3435-410d-aadf-181b4608d8f1">
+                <propertyInstance
+                  Id="a302fac3-bdb8-450a-b3f0-66702ce1cb00"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6db60ae4-be4e-47a5-8e8d-97098022216a">
+                <propertyInstance
+                  Id="2c90c7a5-b7f0-4215-9689-6a1b83a15081"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a6275406-2cc1-4c9f-8264-c0e4e7968149">
+                <propertyInstance
+                  Id="d1cf0512-74f4-4f24-a8d3-1a02543ca7bb"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="116e2b39-5287-4ee8-b868-fff3eec89cc5"
+            name="Main"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="8f77f4a5-1c08-4658-b34e-045e959d9401"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721 Type%3DMainGasPump Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1c325485-d5ec-4459-be22-b504bda88dbe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9238aaa5-51e2-4762-8c07-f6feb6e9f576">
+                    <propertyInstance
+                      Id="81b12776-0457-4d17-b200-7e62c6f76ada"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a824e5df-baae-418c-9bba-9f3e0db701c5">
+                    <propertyInstance
+                      Id="49a1fb97-99cb-4b2a-ace7-130d42c00c1a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c33b3fa-e3e4-4070-8c67-2cb19767ac65">
+                    <propertyInstance
+                      Id="c6878abe-3095-444f-9267-d062da18a5ec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84835c2b-2fbd-46b4-b5dc-73d47a4a0c99">
+                    <propertyInstance
+                      Id="a6830fef-6411-4006-9a9e-c818dd1c8155"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fc4e7c8f-2166-4fdc-9927-b7171dd7ad1a">
+                    <propertyInstance
+                      Id="064296f0-b95f-45bc-a778-1e946cf9b1c1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d48c184c-c6d9-41f1-aaf8-c382501dccd2">
+                    <propertyInstance
+                      Id="f79c6aa1-f8c2-44e1-b769-dbdd520c3fc4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ad742422-225b-4f31-96f2-ccdf95fc915c"
+                  name="args"
+                  direction="In"
+                  isOrdered="true">
+                  <referencesInternal>
+                    <reference
+                      Id="a0e49a07-4ae2-4855-9909-0088e9ffd6f6"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721 Type%3DMainGasPump Member%3D(Name%3DMain OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3D(Name%3DString ArrayRank%3D1 ParentType%3DString))]) ParameterIdentifier%3Dargs"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <lowerValueInternal>
+                    <literalString
+                      Id="0e55a76a-8c99-4aaf-a2c7-73b0d3bc1bd0"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="14348792-c7fe-4d18-aa07-1910c55c7194"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="079f7f2d-fe67-4266-a666-f9f9c53a04a7"
+            name="MainGasPump"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="85d8f477-9fbd-44a6-9965-d57d32ab924c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721 Type%3DMainGasPump Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d2d344a7-3859-42c7-9f98-489c047d3408"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="328c128b-80a6-460e-b67d-5070f7b8bc84">
+                    <propertyInstance
+                      Id="8c3efdaf-7a51-4a0d-8e9b-c9c16e57a5bb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6f1b9801-0322-4fd2-aee7-b4a925ec15ed">
+                    <propertyInstance
+                      Id="cf954519-e5a6-4076-aa1a-136eee9327b1"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28c21778-65fc-4c47-b2d9-11dce150dbef">
+                    <propertyInstance
+                      Id="b1ffe9fa-2881-4bee-98ab-91b5646602e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13b707ec-e07e-4089-95bc-79b48dc4c2d9">
+                    <propertyInstance
+                      Id="94aaa276-f874-4656-94ee-93b9a54273a0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="157a96cb-fe8a-4cd7-afc1-f5c022c241cd">
+                    <propertyInstance
+                      Id="087be96d-87dc-4f5c-bca8-63b80e300582"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7c8710b-fac1-45a1-9639-cfde0772d236">
+                    <propertyInstance
+                      Id="bb3f96cf-e742-4b5b-979c-15009bb39f6f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="68ee34ce-f70e-4121-9dab-ba0c16b40080"
+        LastKnownName="AbstractFactoryNS"
+        LastKnownLocation="Package1_2236.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="794b6ae6-06ac-4128-8543-1de47283786d"
+        LastKnownName="DataStores"
+        LastKnownLocation="Package2_2236.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f0507e2a-ca8b-4826-8b1b-4f4b45ef81ee"
+        LastKnownName="Strategy"
+        LastKnownLocation="Package3_2236.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="89a64e1f-5563-48f1-bbd7-910325f36a20"
+        LastKnownName="States"
+        LastKnownLocation="Package_2238.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="40710776-9f6f-4116-8914-578cf21d99dd"
+        LastKnownName="OutputProcessor"
+        LastKnownLocation="Package1_2238.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1518591e-6dd6-490f-8e6f-d9ffc1fcb103"
+        LastKnownName="InputProcessor"
+        LastKnownLocation="Package2_2238.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1b6ec77a-cbdb-449b-a3b7-1dec5250b9de"
+        LastKnownName="MDEFSM"
+        LastKnownLocation="Package3_2238.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

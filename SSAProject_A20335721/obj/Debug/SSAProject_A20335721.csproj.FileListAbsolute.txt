@@ -1,0 +1,6 @@
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\bin\Debug\SSAProject_A20335721.exe.config
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\bin\Debug\SSAProject_A20335721.exe
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\bin\Debug\SSAProject_A20335721.pdb
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\obj\Debug\SSAProject_A20335721.exe
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\obj\Debug\SSAProject_A20335721.pdb
+c:\users\sabya\documents\visual studio 2013\Projects\SSAProject_A20335721\SSAProject_A20335721\obj\Debug\SSAProject_A20335721.csprojResolveAssemblyReference.cache

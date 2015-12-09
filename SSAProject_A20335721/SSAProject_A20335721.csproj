@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB4F8244-A699-4723-B718-6D780F2014BA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SSAProject_A20335721</RootNamespace>
+    <AssemblyName>SSAProject_A20335721</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractFactory\AbstractFactory.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryGP1.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryGP2.cs" />
+    <Compile Include="AbstractFactory\ConcreteFactoryGP3.cs" />
+    <Compile Include="DataStore\DataStore.cs" />
+    <Compile Include="DataStore\DataStoreGP1.cs" />
+    <Compile Include="DataStore\DataStoreGP2.cs" />
+    <Compile Include="DataStore\DataStoreGP3.cs" />
+    <Compile Include="InputProcessor\GasPump1.cs" />
+    <Compile Include="InputProcessor\GasPump2.cs" />
+    <Compile Include="InputProcessor\GasPump3.cs" />
+    <Compile Include="MDEFSM\MDEFSMGasPump.cs" />
+    <Compile Include="MainGasPump.cs" />
+    <Compile Include="OutputProcessor\OutputProcessorClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="States\StartState.cs" />
+    <Compile Include="States\State.cs" />
+    <Compile Include="States\State0.cs" />
+    <Compile Include="States\State1.cs" />
+    <Compile Include="States\State2.cs" />
+    <Compile Include="States\State3.cs" />
+    <Compile Include="States\State4.cs" />
+    <Compile Include="States\State5.cs" />
+    <Compile Include="States\State6.cs" />
+    <Compile Include="Strategy\CancelMsg.cs" />
+    <Compile Include="Strategy\CancelMsg1.cs" />
+    <Compile Include="Strategy\DisplayMenu.cs" />
+    <Compile Include="Strategy\DisplayMenuGasPump1.cs" />
+    <Compile Include="Strategy\DisplayMenuGasPump2.cs" />
+    <Compile Include="Strategy\DisplayMenuGasPump3.cs" />
+    <Compile Include="Strategy\GasPumpedMsg.cs" />
+    <Compile Include="Strategy\GasPumpedMsgImpl.cs" />
+    <Compile Include="Strategy\GasPumpedMsgLiter.cs" />
+    <Compile Include="Strategy\PayMsg.cs" />
+    <Compile Include="Strategy\PayMsgGasPump1.cs" />
+    <Compile Include="Strategy\PayMsgGasPump2.cs" />
+    <Compile Include="Strategy\PayMsgGasPump3.cs" />
+    <Compile Include="Strategy\PrintReceipt.cs" />
+    <Compile Include="Strategy\PrintReceiptImpl.cs" />
+    <Compile Include="Strategy\PrintReceiptImplGasPump2.cs" />
+    <Compile Include="Strategy\PrintReceiptImplGasPump3.cs" />
+    <Compile Include="Strategy\PumpGasGallon.cs" />
+    <Compile Include="Strategy\PumpGasGallonFloat.cs" />
+    <Compile Include="Strategy\PumpGasLiter.cs" />
+    <Compile Include="Strategy\PumpGasUnit.cs" />
+    <Compile Include="Strategy\ReadyMsg.cs" />
+    <Compile Include="Strategy\ReadyMsgImpl.cs" />
+    <Compile Include="Strategy\RejectMsg.cs" />
+    <Compile Include="Strategy\RejectMsgGasPump1.cs" />
+    <Compile Include="Strategy\SetInitialValues.cs" />
+    <Compile Include="Strategy\SetInitialValuesGasPump1.cs" />
+    <Compile Include="Strategy\SetInitialValuesGasPump2.cs" />
+    <Compile Include="Strategy\SetInitialValuesGasPump3.cs" />
+    <Compile Include="Strategy\SetPrice.cs" />
+    <Compile Include="Strategy\SetPriceGasPump1.cs" />
+    <Compile Include="Strategy\SetPriceGasPump2.cs" />
+    <Compile Include="Strategy\SetW.cs" />
+    <Compile Include="Strategy\SetWGasPump1.cs" />
+    <Compile Include="Strategy\StopMsg.cs" />
+    <Compile Include="Strategy\StopMsgImpl.cs" />
+    <Compile Include="Strategy\StoreCash.cs" />
+    <Compile Include="Strategy\StoreCashGasPump1.cs" />
+    <Compile Include="Strategy\StoreCashGasPump3.cs" />
+    <Compile Include="Strategy\StoreData.cs" />
+    <Compile Include="Strategy\StoreDataGasPump3.cs" />
+    <Compile Include="Strategy\StoreDataGasPump1.cs" />
+    <Compile Include="Strategy\StoreDataGasPump2.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

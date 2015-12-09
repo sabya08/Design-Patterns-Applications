@@ -1,0 +1,1155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="1b6ec77a-cbdb-449b-a3b7-1dec5250b9de"
+  name="MDEFSM"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="92d087fb-c76b-4900-a0f2-db3664878709"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DSSAProject_A20335721.MDEFSM"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="97807da2-b599-44cc-904c-0977b8bc7781"
+        name="MDEFSMGasPump"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9244eb4c-1dc1-4a09-a278-959bc72c81f0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="f28e9d4c-ec2c-4f47-9e82-3084179818a1"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="acd2f20e-f000-4d95-9430-239c403ed57d">
+                <propertyInstance
+                  Id="7b47159e-31c8-4340-ada4-799b0c83b67b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e3e63483-22c9-4abf-8704-d05ec47a5483">
+                <propertyInstance
+                  Id="5be0a125-10e6-45dc-87ea-f221b846187e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="949975d7-4c19-4191-bee4-d45185e008fe">
+                <propertyInstance
+                  Id="587753dd-e8de-4a49-b013-6487cfa703f8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3228cca-09bd-4143-9ed8-625ad5abe496">
+                <propertyInstance
+                  Id="ad62d053-ddc9-498a-8542-107c69c6ff4b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0983429-1210-493e-a5ce-2d96b86d9262">
+                <propertyInstance
+                  Id="0abde9a0-01d8-46fa-b77e-1a41c9fb1d65"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="54c14a34-5951-4b49-8cc8-7a77665bbb3b"
+            name="state"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isOrdered="true"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fa7989e3-a786-4bee-a1a5-8fdc17494fe9"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3Dstate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e70b7d25-0229-4229-aa75-09d6cf9da684"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="620311a1-dbb0-45ec-9bd4-c9b6d488c193">
+                    <propertyInstance
+                      Id="19b3b8b8-3ff1-4888-8d91-18991017fa31"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b8e93db-ed1a-4d02-9ad1-feaf8f89830f">
+                    <propertyInstance
+                      Id="0da8931b-003d-460e-8dc2-6a790abf1968"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7465aace-2d98-47ab-ae40-e4b8c4e86d18">
+                    <propertyInstance
+                      Id="b5d7bf83-b70d-48e3-86b0-0a5f7f6cfe6e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed21c5d0-a60f-4f85-9f26-d21d7ffa1b07">
+                    <propertyInstance
+                      Id="1e6f9a59-8b44-493d-bad0-eadb9aac2747"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d21554b2-27fd-483f-92ad-8e1f2e9fb981">
+                    <propertyInstance
+                      Id="05fd5e67-84b2-4c31-baba-14620f8d7e08"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <lowerValueInternal>
+              <literalString
+                Id="1a97dd51-cdf1-47f8-80df-53d67a1b6d37"
+                name="Lower"
+                value="*" />
+            </lowerValueInternal>
+            <upperValueInternal>
+              <literalString
+                Id="d1a337b8-198a-44f3-a82f-1d5c25098b9b"
+                name="Upper"
+                value="*" />
+            </upperValueInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="183fe53a-1a1e-42b5-8b07-aa76fa484f8d"
+                LastKnownName="State"
+                LastKnownLocation="Package_2238.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0ace4814-c2bc-497e-9d50-552bd75fc0b7"
+            name="stateID"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="e5123baa-f603-446c-9aef-39eb3b1e1489"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DstateID"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="695536d3-389a-4303-8636-7cf67f6ad3bc"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb40401d-8259-491b-b90c-a6884765d1d7">
+                    <propertyInstance
+                      Id="aee15b4c-1eef-4592-9d81-cefe214fcb7f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b18ed899-259a-40a3-a801-3f527722167f">
+                    <propertyInstance
+                      Id="cbf275b4-2209-47a2-b43c-03b07fc0971d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d6f99e2-88e7-4ae4-8b73-a8714f54e49b">
+                    <propertyInstance
+                      Id="7eb68d69-3ec6-4015-b558-cdf88c31b0e1"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="308742a2-b3cd-4f04-9e4c-d689ad56e954">
+                    <propertyInstance
+                      Id="202b3472-8235-4e3c-991b-bd5e37fe6c3a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4e901c0-74c2-4b6f-9e5e-6d035d00eaab">
+                    <propertyInstance
+                      Id="f959dc9a-2ce6-4fc3-913b-e174766cff89"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="463f1cad-94d0-42fd-ad30-ca03e16eb9d1"
+            name="Activate"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="622e5b1f-52ad-41cf-97c5-757733ef14a7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DActivate"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db77c7ab-4ee7-4846-b674-4575dc54e6f3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18dc47be-c7cc-45c3-9806-fdfc6f9602b5">
+                    <propertyInstance
+                      Id="2113fa7e-c142-43cd-a02b-0ef37ddc97f3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9982ce28-7122-4d97-b9c4-ded3c9a06aaa">
+                    <propertyInstance
+                      Id="ec5f8eab-82c8-40ab-a9d4-4b1562152c12"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7c54f31-303a-44d2-867b-c5d717ca4ce0">
+                    <propertyInstance
+                      Id="7fcfd8dd-a873-43ab-a30d-7ef66aaa7161"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8d65889-72c8-46e8-b82d-223d804e7610">
+                    <propertyInstance
+                      Id="da09b8bb-3198-431d-86df-103bd21cda70"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="559554b0-e491-4359-9df3-6c97db4472ae">
+                    <propertyInstance
+                      Id="7accb3f8-e37f-480c-91b8-767e09d80720"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="525a4106-8dba-458c-aeb0-9eb10821dbde">
+                    <propertyInstance
+                      Id="e5011365-73cd-4028-8878-167ca333c3e6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="207f3465-eb89-4255-9598-20b5b3016347"
+            name="Start"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b9824d0b-6da9-48bb-9b84-6c1953df95da"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DStart"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f8fee3e-f7bc-4c59-a49e-8469f679e9dc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4f2ffc2-be00-4613-84cf-fd7a35eff8fd">
+                    <propertyInstance
+                      Id="79800716-daa6-4fca-ab04-52aa891909ab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e38eb9eb-d6d7-46de-93bf-796948730903">
+                    <propertyInstance
+                      Id="61e1a261-041c-4b34-b89e-c04802aa5462"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31f8ff21-050c-48a5-b75b-5dc5660f615e">
+                    <propertyInstance
+                      Id="b5f052a6-7f87-449d-b530-8dc7618c3454"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afbaf185-1a20-42b1-89e3-d189908ebf7c">
+                    <propertyInstance
+                      Id="c6ee9eee-f957-4347-9a5c-694a18c7f544"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d163799f-91c0-4e62-9fbf-fe00895f0966">
+                    <propertyInstance
+                      Id="924d4da6-703a-4028-8a1c-a182b6919b51"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3497b6fc-eaf0-49a8-88d3-fc9c7ca1bc61">
+                    <propertyInstance
+                      Id="b3796231-8fa6-4212-9cb8-497b05d9bc96"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="5efcb3ea-b80b-479e-a6f3-eae95f5dbeb7"
+            name="PayCredit"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="160e4b20-af43-4dde-bf05-273ab0a059cb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DPayCredit"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd4e2f2c-1b2a-4835-a0bd-faf72cddaf8b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed8bbb66-212b-41c5-bd59-b13fcadd762e">
+                    <propertyInstance
+                      Id="04de7f7a-cb2b-4f29-a324-96916b31f415"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b419693-2292-4d1e-8ea3-620efdf05a58">
+                    <propertyInstance
+                      Id="4ad34eb0-089b-4955-9b08-7f8df5460447"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="16a9cb88-ab6d-499b-b7b2-c5f31bf3073e">
+                    <propertyInstance
+                      Id="bab2b985-c087-43c5-8c03-f46fd131026d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ac86162-7226-4707-9be5-021a4c853f1f">
+                    <propertyInstance
+                      Id="62292119-35c4-4650-8c86-37ee32d240bd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1a2f82e-7bbf-485c-975a-bc4b7350e125">
+                    <propertyInstance
+                      Id="19be9131-9d72-434b-ba5f-78db450d7185"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e61cc55-4c8f-4361-8ca4-0c978ba2235e">
+                    <propertyInstance
+                      Id="c28ad81a-19c5-4084-ac1f-27f7f4fc50ff"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="1ae2f02d-b0c4-46f1-9697-141a18e08ef3"
+            name="Reject"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7f3f9322-c758-4e16-9301-312b59321ea1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DReject"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5b95cee5-14b4-41f8-9d4d-ab4e31c60b71"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2caf4cfa-f811-4359-88e3-c4098baf652c">
+                    <propertyInstance
+                      Id="2af2c978-0ff1-4fc7-b80b-5ea7b764b194"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="101d5f76-a958-4cd2-9868-3d0d7f9df8a4">
+                    <propertyInstance
+                      Id="fac9bb81-ea48-44ef-8c42-a7899a574a32"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a12136a-6e3e-4f36-aef8-303e346a1c6b">
+                    <propertyInstance
+                      Id="a814db36-1827-4486-b267-1afbb88d4720"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8e14210-1301-447f-b710-d3b342f5b5c5">
+                    <propertyInstance
+                      Id="8a14cc2c-f48a-499e-85fa-589f5e085249"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8389a1b-88d1-4783-9bfa-64e1e37c680d">
+                    <propertyInstance
+                      Id="212867dc-b5cc-49f7-9e38-a5990262960e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c191196-d36c-46b9-b432-3ffe65b7c0bf">
+                    <propertyInstance
+                      Id="bed8a8ab-0013-4da2-8c48-1480d83a2ea1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9d1a0cc7-2327-4b48-87b4-990945280f06"
+            name="Cancel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a583a9bb-9902-4d5b-a60f-2843c4e43ffe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DCancel"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2b8c4d81-3ec6-4dfe-baf1-db383971c6ab"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8ac7cd0-0ae1-456e-a063-551a8af41424">
+                    <propertyInstance
+                      Id="3713fda8-8435-4171-a6d0-7b7b40c834e7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="69711849-0799-435c-aa0d-66e809d02da3">
+                    <propertyInstance
+                      Id="3b902cda-9f10-4dd5-959c-9374be1775a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d96e67f7-ba90-4a06-b343-72541484d4e7">
+                    <propertyInstance
+                      Id="eb1f909b-8909-4a24-ba57-4421c62a3f76"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d50f33f1-d12d-498b-8723-26c9f4e1ee9a">
+                    <propertyInstance
+                      Id="e225e82c-1a53-4729-853e-c07baa4b89b7"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4b4cd14-ec5a-49d8-994e-2adb7e55c7ce">
+                    <propertyInstance
+                      Id="066bb87b-6c8a-4e08-adb0-2755cbc8eca2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="71df7dd9-7421-46b1-ab20-c0d275e7256d">
+                    <propertyInstance
+                      Id="63057124-1d2d-446d-a19f-9aca03324e99"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c7c47474-06fd-4cb3-aa66-83202aac063e"
+            name="Approved"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="18ffcaf8-d42c-4ffe-b0a8-26d9dff65942"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DApproved"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06fa85ac-160d-47f6-9255-80ad9fec3185"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b3d9f59-da8e-4d8d-8d22-9274f66c67cf">
+                    <propertyInstance
+                      Id="d4eb3f6f-56f0-4059-8772-4674d689f130"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce735842-11d8-47ae-acb4-1d03907870d6">
+                    <propertyInstance
+                      Id="3d355af9-e1d7-4019-b287-4caeabe1ac56"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75072a69-cf9a-4e58-bfd2-76df3be3a8ba">
+                    <propertyInstance
+                      Id="7b4d5b9b-58bb-4908-8dca-dde23ba11e7f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="607a671c-d943-4582-abae-965e9dc1ca4e">
+                    <propertyInstance
+                      Id="2ff4a63d-bdb2-42d6-bbdf-0cd6650ac87f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7672a8f8-6063-48e4-a192-139290d2d102">
+                    <propertyInstance
+                      Id="fe4a80a1-6bca-463e-b283-6588584ef574"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb597161-181a-4eb0-bd7b-29121dc214c4">
+                    <propertyInstance
+                      Id="2c66f6b7-fdad-4480-b19a-30b6a2f00037"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9f0621ed-c153-4908-a98e-056f1998229a"
+            name="PayCash"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="df340c87-c5cd-474d-8cd0-20c39dc21f34"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DPayCash"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f073e8a3-9e64-4b88-9c0b-f1a8db099687"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="259bd18a-4893-4ca0-8f7e-0be696f96411">
+                    <propertyInstance
+                      Id="b324c198-f9c3-4214-86ab-eaf75cd672aa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fd464bc8-e569-4693-8984-9ae2fa64c9fa">
+                    <propertyInstance
+                      Id="a0c6d78c-8dd1-4ac7-a6bb-c2d0784d8529"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b980dc6f-3008-423c-a2f7-e7aaf64b24b8">
+                    <propertyInstance
+                      Id="b6288402-66ea-404e-ba01-b5eeec041d66"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0474eae6-e606-4b31-8cd3-c4fb920fad00">
+                    <propertyInstance
+                      Id="1f64375a-f66e-4d8e-bb8f-f574d2d0c39f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7277e900-0091-4ae0-a411-ca94e7eb7b8a">
+                    <propertyInstance
+                      Id="8854e807-7803-4647-ad2e-552abbaa6b31"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21ab721e-b239-4b71-b5af-816502d95b20">
+                    <propertyInstance
+                      Id="dd94d3c6-2c08-4b66-b662-aa0306b0a78a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="9a9790c9-fd2b-4edf-b20e-03c3c3ee2bfe"
+            name="SelectGas"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e0567797-2e66-40b5-96ab-526c450bc247"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3D(Name%3DSelectGas OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b5dcffe7-9829-4781-957f-a8ab2dfbd859"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7b38f9b6-ef0a-4701-9f91-9becab33e936">
+                    <propertyInstance
+                      Id="81900763-ce75-4f73-ae50-c863921bc6ea"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="675433bd-35b2-46b1-969d-6169357fd395">
+                    <propertyInstance
+                      Id="30c16e9f-b400-4144-b892-7acc22efbe2c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3b4c464-661f-4f67-a817-c6bd4c47fb06">
+                    <propertyInstance
+                      Id="eba2c251-71bd-40a5-a0ad-d4652139cfcb"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85ccad42-2ae6-4f3c-b3df-0eb18942814e">
+                    <propertyInstance
+                      Id="cc6f8e47-151c-40b2-bf71-164dd444669b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c821862-d6d3-4c76-b6c5-d9152e97f0ef">
+                    <propertyInstance
+                      Id="c4d2f2d9-200f-4fe3-9c75-063c9c8253ac"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc897c5a-ce01-4640-851a-a03bd4a1bb71">
+                    <propertyInstance
+                      Id="8e481ec7-1bf9-45f7-9e7a-fbfa1623adc8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21e2cafa-8944-4bc9-b69a-661ef85a202f"
+                  name="type"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d471a693-ae06-4e5b-9e70-e4d37871cdfa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3D(Name%3DSelectGas OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dtype"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="35b4aa79-c439-4530-9aad-0a3fef439bf7"
+            name="StartPump"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4b0a724f-d076-4c20-b02a-7f695da02cc0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DStartPump"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="aa3e56f3-29b5-4374-beb1-69c0bf71061a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1ed9d53-b403-4b35-a145-3ffd93933956">
+                    <propertyInstance
+                      Id="b167f71e-9210-4605-9a4e-608d010230d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7ed38494-e5e6-489a-9e92-abbaf73882c4">
+                    <propertyInstance
+                      Id="5223a523-75e3-40f3-809b-54fadd278362"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0a32135-167d-41a3-a32f-ea5eaee2e205">
+                    <propertyInstance
+                      Id="d87baad6-bf3b-4dcd-9021-0cf64ff68030"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="939f3b35-0ba6-4401-bbbb-74eef89faadb">
+                    <propertyInstance
+                      Id="351f6299-67ae-4c80-acb4-e5160f3869f4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8b7fdba-2d54-4245-8383-464997ef7fa6">
+                    <propertyInstance
+                      Id="4af0fcb5-2c98-487f-ae10-7167dae42404"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a99edc4-7b8f-458b-9815-80d5caf8c63a">
+                    <propertyInstance
+                      Id="49baa255-2a34-40fe-8ae5-4830f43c91a8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="53cfb5a1-28e4-49f8-a5d6-30f2c48b7e5c"
+            name="Pump"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4117feb5-7fd1-4b49-9ce9-2e6526290100"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DPump"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="130fb24b-aa15-45be-8b20-bfdec1f404a3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3aaecc9-1b35-447e-8287-e327d3158d65">
+                    <propertyInstance
+                      Id="4a31ba2a-44e7-424a-a511-a22170250c22"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d0b0dc65-d712-4447-ae0f-5fa6b54fa554">
+                    <propertyInstance
+                      Id="ce83c1b1-c321-4b98-8f3c-3dd8cff5b1b5"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="44d2b382-3c38-4fe1-be49-f59bd0da24f9">
+                    <propertyInstance
+                      Id="064c1370-e80c-4893-8e22-b8e8fabc9436"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7c0bc11-55cc-4e43-b85c-8552f9a78129">
+                    <propertyInstance
+                      Id="77b52824-ede1-409e-af5d-4604c3b30d2c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07a861f7-8219-4d7e-8865-353056f85e04">
+                    <propertyInstance
+                      Id="649e973f-e922-4a6c-814e-d7e25812356e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2499c35-0a7c-4d30-b014-4f88fb1a5d62">
+                    <propertyInstance
+                      Id="583144f7-70a1-40b8-b285-5844db8a1210"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bf6c20f0-2e83-4ed5-808f-d5fc95732344"
+            name="StopPump"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f72028a8-0b94-43e2-917c-f6fad6bb9e10"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DStopPump"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="eccae570-af53-4c64-b294-b68eecfcaccc"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3b33f918-5509-4757-873d-00bea29a0f67">
+                    <propertyInstance
+                      Id="a59ab518-742b-4fbc-aec4-aaae2d56b1a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9e9118e-b547-407e-80af-ac8c6c7a8b49">
+                    <propertyInstance
+                      Id="5dba441d-e2ba-412c-bb73-f856a553fcc9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e4094e5a-965f-4c47-ae67-78e577c92dd1">
+                    <propertyInstance
+                      Id="c334c592-b391-4716-afdc-d9554014994c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f8865d1-478b-44b5-8429-8c2c912fbc90">
+                    <propertyInstance
+                      Id="b309bc1a-a1d9-4435-b903-6a844eff033d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c113007-df12-43d0-9813-bc90d902e11d">
+                    <propertyInstance
+                      Id="18e21fef-7ad9-4048-9987-4bb8d02f4b4c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="08b0639f-782f-4920-a18d-1dae16ecf43b">
+                    <propertyInstance
+                      Id="946d8a83-2c86-4c25-b764-b7d3b3a8033f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="bc3d62a5-caa8-465a-a070-56fc59f95ac8"
+            name="Receipt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0fe86661-3108-4254-b298-cd55bd3993e0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DReceipt"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6410acc0-b5ab-4346-bda4-1a2e1daaf74a"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5cba6ed-3fa2-4ca2-bfae-f685dee5e084">
+                    <propertyInstance
+                      Id="84cf807c-316a-48e8-b638-0e5c4f706a03"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f3aa9df-65ad-45c1-b36a-6daeadb01b4c">
+                    <propertyInstance
+                      Id="6e502982-63a8-4023-b798-e1283702766f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61671038-0344-4067-9088-5838e8e7c209">
+                    <propertyInstance
+                      Id="3a77e7f0-3ee0-456e-b587-a0d8225631b2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f0dfc162-b592-4b87-a970-b473cef37453">
+                    <propertyInstance
+                      Id="8608efef-c069-42ff-9ffc-d3eabdfa84b5"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fca8e8c5-3a9e-4efb-a759-ba6d699f7f1c">
+                    <propertyInstance
+                      Id="d3653a90-51d0-429c-9a72-008eaaf156df"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8782359-e844-4a80-bbb2-ab321e207edc">
+                    <propertyInstance
+                      Id="3dd76179-c395-4007-8d81-57159ba883e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="77d43c40-9337-44c3-aa0f-e7cef42f2958"
+            name="NoReceipt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="85f768f4-ed94-418d-91d3-2ad0e3e75237"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3DNoReceipt"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4b6425c5-2612-4fb7-9299-f1aa361b4128"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="350af1f8-ecb3-4911-aa7f-8a0bd55ed169">
+                    <propertyInstance
+                      Id="5ca4c3e1-a81f-406d-95d3-0790ab886e8b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94a4c7ad-b0f5-4ebc-927a-ac8b26687ea7">
+                    <propertyInstance
+                      Id="548ea2c5-78d3-4655-a300-81fe076f81a9"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd45dc55-e4c3-4bc7-93de-bc230f80ec7e">
+                    <propertyInstance
+                      Id="6afc8cdc-e900-4b55-9e7c-221a7506ab5d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5d8c9b9-0ff1-4737-b1b2-8a363a3b0b90">
+                    <propertyInstance
+                      Id="aec21997-fabd-461b-9cf7-9714df4042c8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be91ebae-c8d4-419c-af40-1b4691c60eed">
+                    <propertyInstance
+                      Id="a8f8a78c-bfde-46ea-a14b-56e9c9ade451"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c647b3f8-fd10-46e1-81b6-e5029f07030d">
+                    <propertyInstance
+                      Id="81670958-3844-4524-a7c6-ebffa3b302bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7948b244-67e9-46f0-b1cc-341bdd185a81"
+            name="MDEFSMGasPump"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="72aa1513-9641-4276-8b9c-ab1b7f2d0951"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2Fc:%2Fusers%2Fsabya%2Fdocuments%2Fvisual studio 2013%2FProjects%2FSSAProject_A20335721%2FSSAProject_A20335721%2Fbin%2FDebug%2FSSAProject_A20335721.exe&quot; Namespace%3DSSAProject_A20335721.MDEFSM Type%3DMDEFSMGasPump Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a98392c3-1cfb-4785-9724-f4c84d118439"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edc411dc-81e3-4dc0-b34e-4ae953d9b38f">
+                    <propertyInstance
+                      Id="03baaf1a-d28b-4a5c-8bd1-41c159f83495"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e0deab6-36a0-46eb-b036-783b42114bab">
+                    <propertyInstance
+                      Id="7efad456-acc8-479b-8ace-9a5af4153f4c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22f195e7-8be8-47b0-b765-7a173a0655dc">
+                    <propertyInstance
+                      Id="142fc23d-0b36-4119-b205-a41b63188d9b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f394bace-ea4a-435d-b1fc-e48850c34f26">
+                    <propertyInstance
+                      Id="e8d42cbc-ff09-4758-9676-59b83c8503d3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd82f352-cf89-4a4a-9675-31693c733cf8">
+                    <propertyInstance
+                      Id="4c957c59-78e3-4855-a97c-a20da710fba8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2b8036e-1b80-4609-89be-420f165b7a13">
+                    <propertyInstance
+                      Id="1161bbb1-471b-4c48-ba37-650b6c863483"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
